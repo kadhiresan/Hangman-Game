@@ -10,4 +10,5 @@ a [Sails](http://sailsjs.org) application
 	4. DO npm install
 	5. Start playing/debugging the game
 
-![alt tag](https://github.com/kadhiresan/todoApp-sailsJs/blob/master/assets/images/sailsjs-todo-app1.png)
+![alt tag](https://github.com/kadhiresan/Hangman-Game/tree/master/assets/images/HG_Screenshot_1.png)
+![alt tag](https://github.com/kadhiresan/Hangman-Game/tree/master/assets/images/HG_Screenshot_2.png)
