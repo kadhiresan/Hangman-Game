@@ -18,7 +18,8 @@ a [Sails](http://sailsjs.org) application
 3. Run the project
   ```bash
   sails lift
-
+  ```
+	
 ![alt tag](https://github.com/kadhiresan/Hangman-Game/blob/master/assets/images/hanman_game.gif)
 
 **Note**
