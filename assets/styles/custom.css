@@ -1,0 +1,35 @@
+.box {
+	width: 50%;
+    margin: 0 auto;
+    border: 4px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.box-hor {
+	width: 50%;
+    margin: 0 auto;
+    border: 4px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    float: left;
+    overflow: scroll;
+}
+.center {
+	text-align: center;
+}
+.m-top-15 {
+    margin-top: 15px;
+}
+.m-top-10 {
+	margin-top: 10px;
+}
+.m-15 {
+    margin: 15px;
+}
+.txt-heading {
+	color: green;
+}
+.close {
+	color: #a94442;
+}

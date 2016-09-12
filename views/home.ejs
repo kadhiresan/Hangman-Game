@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kad Hangman Game</title>
+
+		<!-- Viewport mobile tag for sensible mobile support -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+	    <!--STYLES-->
+    	<link rel="stylesheet" href="/styles/bootstrap-3.3.7-dist/bootstrap-theme.min.css">
+    	<link rel="stylesheet" href="/styles/bootstrap-3.3.7-dist/bootstrap.min.css">
+    	<link rel="stylesheet" href="/styles/custom.css">
+    	<link rel="stylesheet" href="/styles/importer.css">
+    	<!--STYLES END-->
+	</head>
+	<body ng-app="hangman" ng-controller="WordController" ng-cloak>
+		<div class="container-fluid box m-top-15">
+			<h3 class="center m-15">Hangman Game</h3>
+			<div  ng-init="loadWords()" class='col-md-4  theGame'>
+				<p class="alert alert-danger" title="TheGameWord">{{ theGameWord }}</p>
+				<pre class="center">{{ currentDrawing }}</pre>
+				
+				<form name="gameForm" novalidateonclick="return false;">
+					<input type="text" class="form-control" name="name" ng-model="guess" ng-required placeholder="guess the word (enter the char one by one)" autocomplete="off" />
+
+					<button ng-click="checkGuess();" class="btn btn-lg btn-default m-top-10">Submit</button>
+
+					<p ng-show="showCorrectWord !== '' " class="alert alert-warning m-top-15">The correct word was:  {{ showCorrectWord }}</p>
+
+					<p class="lead center m-top-15"><span class="label label-danger">{{ numFailedWords }}</span> failed words and <span class="label label-success">{{ numCompletedWords}}</span> completed words</p>
+				</form>
+			</div>
+		</div>
+	    
+		<!--SCRIPTS-->
+		<script src="/js/dependencies/sails.io.js"></script>
+		<script src="/js/dependencies/jquery-3.1.0.js"></script>
+		<script src="/js/dependencies/angular.min.js"></script>
+		<script src="/js/dependencies/bootstrap.min.js"></script>
+		<script src="/js/public/game/WordModule.js"></script>
+		<script src="/js/public/game/WordController.js"></script>
+		<!--SCRIPTS END-->
+	</body>
+</html>
