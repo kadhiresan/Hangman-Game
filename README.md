@@ -11,4 +11,6 @@ a [Sails](http://sailsjs.org) application
 	5. Start playing/debugging the game
 
 
-![alt tag](https://github.com/kadhiresan/Hangman-Game/tree/master/assets/images/HG_Screenshot_1.png)
+![alt tag](https://github.com/kadhiresan/Hangman-Game/blob/master/assets/images/HG_Screenshot_1.png)
+
+![alt tag](https://github.com/kadhiresan/Hangman-Game/blob/master/assets/images/HG_Screenshot_2.png)
